@@ -6,7 +6,7 @@ import io
 # --- CONFIGURACIÓN DE CONTRASEÑA ---
 def check_password():
     def password_entered():
-        if st.session_state["password"] == "FamiliaTadeo2026": # <--- CAMBIA ESTA CONTRASEÑA SI QUIERES
+        if st.session_state["password"] == "Abuelita2026": # <--- CAMBIA ESTA CONTRASEÑA SI QUIERES
             st.session_state["password_correct"] = True
             del st.session_state["password"]
         else:
